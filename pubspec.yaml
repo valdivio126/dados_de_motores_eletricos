@@ -1,17 +1,16 @@
 name: dados_de_motores_eletricos
-description: "App v34 final com anexo e senha cliente"
 publish_to: 'none'
-version: 1.0.0+34
+
 environment:
-  sdk: ">=3.0.0 <4.0.0"
+  sdk: '^3.9.0'
+
 dependencies:
   flutter:
     sdk: flutter
-  cupertino_icons: ^1.0.0
-  shared_preferences: ^2.2.2
-  file_picker: ^10.1.9
-  firebase_core: ^4.14.0
-  cloud_firestore: ^6.9.0
-  firebase_storage: ^13.5.0
-flutter:
-  uses-material-design: true
+  firebase_core: ^3.13.1
+  firebase_auth: ^5.5.4
+  cloud_firestore: ^5.6.12
+  firebase_storage: ^12.4.9
+  shared_preferences: ^2.5.3
+  file_picker: ^10.3.10
+  cupertino_icons: ^1.0.8
